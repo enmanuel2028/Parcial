@@ -7,5 +7,7 @@ La arquitectura Modelo-Vista-Controlador (MVC) es un patrón de diseño que se u
 
 En resumen, MVC es un patrón de diseño útil para separar las responsabilidades de una aplicación de software y facilitar su mantenimiento y reutilización. Es utilizado ampliamente en el desarrollo de aplicaciones web y de escritorio, y es una de las arquitecturas más utilizadas en la actualidad.
 
-Diagrama UML:file:///C:/Users/000502339/Downloads/Diagrama.drawio.png
+Diagrama UML:
 
+
+![Diagrama drawio](https://github.com/enmanuel2028/Parcial/assets/118358785/23462f32-3318-4444-a59d-8f173f3d954a)
