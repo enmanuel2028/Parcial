@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.todo.Controller;
-
 import com.todo.Model.Book;
 import com.todo.Model.Model;
 import java.util.List;
@@ -18,12 +17,13 @@ public class Controller {
     public Controller() {
         this.library = new Model();
     }
-
+//Se añaden los libros
     public void addBook(String title, String author, String publisher) {
         Book book = new Book(title, author, publisher);
         library.addBook(book);
     }
-
+ 
+//Hay un error en recorrer el arraylist
     public void removeBook(String title) {
         List<Book> books = library.getBooks();
         for (Book book : books) {
@@ -33,7 +33,8 @@ public class Controller {
             }
         }
     }
-
+ //Arreglar el print
+ 
     public List<java.awt.print.Book> getBooks() {
         return library.getBooks();
     }
